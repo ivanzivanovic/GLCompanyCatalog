@@ -1,0 +1,328 @@
+2025-06-21 11:21:38.557 +02:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-06-21 11:22:10.764 +02:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-06-21 11:23:52.413 +02:00 [INF] Now listening on: https://localhost:7081
+2025-06-21 11:23:52.430 +02:00 [INF] Now listening on: http://localhost:5224
+2025-06-21 11:23:52.470 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-21 11:23:52.472 +02:00 [INF] Hosting environment: Development
+2025-06-21 11:23:52.473 +02:00 [INF] Content root path: C:\GL\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api
+2025-06-21 11:27:20.846 +02:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-06-21 11:27:48.084 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-06-21 11:27:48.089 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-06-21 11:30:25.115 +02:00 [INF] Email sent
+2025-06-21 11:30:25.117 +02:00 [ERR] Email sending failed
+2025-06-21 15:44:26.701 +02:00 [INF] Now listening on: https://localhost:7081
+2025-06-21 15:44:26.723 +02:00 [INF] Now listening on: http://localhost:5224
+2025-06-21 15:44:26.772 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-21 15:44:26.776 +02:00 [INF] Hosting environment: Development
+2025-06-21 15:44:26.779 +02:00 [INF] Content root path: C:\GL\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api
+2025-06-21 15:44:57.476 +02:00 [ERR] Failed executing DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[CategoryId], [c].[CreatedBy], [c].[CreatedDate], [c].[Exchange], [c].[ImageUrl], [c].[Isin], [c].[LastModifiedBy], [c].[LastModifiedDate], [c].[Name], [c].[Ticker], [c].[Website]
+FROM [Companies] AS [c]
+2025-06-21 15:44:57.523 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'GloboTicket.TicketManagement.Persistence.GLDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Companies'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:752a3615-a511-4616-a2ca-4f0d5f2e1407
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Companies'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:752a3615-a511-4616-a2ca-4f0d5f2e1407
+Error Number:208,State:1,Class:16
+2025-06-21 15:59:15.097 +02:00 [ERR] Failed executing DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Categories] (
+    [CategoryId] uniqueidentifier NOT NULL,
+    [Name] nvarchar(max) NOT NULL,
+    [CreatedBy] nvarchar(max) NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [LastModifiedBy] nvarchar(max) NULL,
+    [LastModifiedDate] datetime2 NULL,
+    CONSTRAINT [PK_Categories] PRIMARY KEY ([CategoryId])
+);
+2025-06-21 16:00:54.635 +02:00 [INF] Now listening on: https://localhost:7081
+2025-06-21 16:00:54.667 +02:00 [INF] Now listening on: http://localhost:5224
+2025-06-21 16:00:54.772 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-21 16:00:54.776 +02:00 [INF] Hosting environment: Development
+2025-06-21 16:00:54.784 +02:00 [INF] Content root path: C:\GL\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api
+2025-06-21 16:05:45.542 +02:00 [INF] Email sent
+2025-06-21 16:05:45.552 +02:00 [ERR] Email sending failed
+2025-06-21 16:58:20.825 +02:00 [INF] Now listening on: https://localhost:7081
+2025-06-21 16:58:20.852 +02:00 [INF] Now listening on: http://localhost:5224
+2025-06-21 16:58:20.915 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-21 16:58:20.918 +02:00 [INF] Hosting environment: Development
+2025-06-21 16:58:20.921 +02:00 [INF] Content root path: C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Api
+2025-06-21 17:08:32.011 +02:00 [INF] Now listening on: https://localhost:7081
+2025-06-21 17:08:32.035 +02:00 [INF] Now listening on: http://localhost:5224
+2025-06-21 17:08:32.080 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-21 17:08:32.083 +02:00 [INF] Hosting environment: Development
+2025-06-21 17:08:32.088 +02:00 [INF] Content root path: C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Api
+2025-06-21 17:08:50.863 +02:00 [ERR] An error occurred using the connection to database '' on server ''.
+2025-06-21 17:08:50.918 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'GL.CompanyCatalog.Persistence.GLDbContext'.
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-06-21 17:12:24.061 +02:00 [INF] Now listening on: https://localhost:7081
+2025-06-21 17:12:24.081 +02:00 [INF] Now listening on: http://localhost:5224
+2025-06-21 17:12:24.128 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-21 17:12:24.132 +02:00 [INF] Hosting environment: Development
+2025-06-21 17:12:24.136 +02:00 [INF] Content root path: C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Api
+2025-06-21 17:21:42.814 +02:00 [INF] Now listening on: https://localhost:7081
+2025-06-21 17:21:42.882 +02:00 [INF] Now listening on: http://localhost:5224
+2025-06-21 17:21:42.995 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-21 17:21:43.000 +02:00 [INF] Hosting environment: Development
+2025-06-21 17:21:43.004 +02:00 [INF] Content root path: C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Api
+2025-06-21 17:22:28.805 +02:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-06-21 17:22:39.611 +02:00 [ERR] An error occurred using the connection to database 'GLCompanyCatalogIdentityDb' on server 'localhost'.
+2025-06-21 17:22:39.611 +02:00 [ERR] An error occurred using the connection to database 'GLCompanyCatalogIdentityDb' on server 'localhost'.
+2025-06-21 17:22:39.611 +02:00 [ERR] An error occurred using the connection to database 'GLCompanyCatalogIdentityDb' on server 'localhost'.
+2025-06-21 17:22:39.661 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'GL.CompanyCatalog.Identity.GLIdentityDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "GLCompanyCatalogIdentityDb" requested by the login. The login failed.
+Login failed for user 'DESKTOP-6R3V4MI\Ivan'.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:0fd0df0d-1d52-42cf-afb9-3623bc2f6f64
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "GLCompanyCatalogIdentityDb" requested by the login. The login failed.
+Login failed for user 'DESKTOP-6R3V4MI\Ivan'.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:0fd0df0d-1d52-42cf-afb9-3623bc2f6f64
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-06-21 17:22:39.661 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'GL.CompanyCatalog.Identity.GLIdentityDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "GLCompanyCatalogIdentityDb" requested by the login. The login failed.
+Login failed for user 'DESKTOP-6R3V4MI\Ivan'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:0fd0df0d-1d52-42cf-afb9-3623bc2f6f64
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "GLCompanyCatalogIdentityDb" requested by the login. The login failed.
+Login failed for user 'DESKTOP-6R3V4MI\Ivan'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:0fd0df0d-1d52-42cf-afb9-3623bc2f6f64
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-06-21 17:22:39.661 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'GL.CompanyCatalog.Identity.GLIdentityDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "GLCompanyCatalogIdentityDb" requested by the login. The login failed.
+Login failed for user 'DESKTOP-6R3V4MI\Ivan'.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:0fd0df0d-1d52-42cf-afb9-3623bc2f6f64
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "GLCompanyCatalogIdentityDb" requested by the login. The login failed.
+Login failed for user 'DESKTOP-6R3V4MI\Ivan'.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:0fd0df0d-1d52-42cf-afb9-3623bc2f6f64
+Error Number:4060,State:1,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-06-21 17:24:53.085 +02:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-06-21 17:28:11.813 +02:00 [ERR] Failed executing DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Categories] (
+    [CategoryId] uniqueidentifier NOT NULL,
+    [Name] nvarchar(max) NOT NULL,
+    [CreatedBy] nvarchar(max) NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [LastModifiedBy] nvarchar(max) NULL,
+    [LastModifiedDate] datetime2 NULL,
+    CONSTRAINT [PK_Categories] PRIMARY KEY ([CategoryId])
+);
+2025-06-21 17:29:51.222 +02:00 [INF] Now listening on: https://localhost:7081
+2025-06-21 17:29:51.272 +02:00 [INF] Now listening on: http://localhost:5224
+2025-06-21 17:29:51.388 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-21 17:29:51.396 +02:00 [INF] Hosting environment: Development
+2025-06-21 17:29:51.406 +02:00 [INF] Content root path: C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Api
+2025-06-21 17:31:26.238 +02:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-06-21 17:31:50.711 +02:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-06-21 17:33:51.215 +02:00 [INF] Now listening on: https://localhost:7081
+2025-06-21 17:33:51.263 +02:00 [INF] Now listening on: http://localhost:5224
+2025-06-21 17:33:51.428 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-21 17:33:51.432 +02:00 [INF] Hosting environment: Development
+2025-06-21 17:33:51.435 +02:00 [INF] Content root path: C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Api
+2025-06-21 17:34:05.379 +02:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-06-21 17:39:43.957 +02:00 [INF] Now listening on: https://localhost:7081
+2025-06-21 17:39:43.997 +02:00 [INF] Now listening on: http://localhost:5224
+2025-06-21 17:39:44.075 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-21 17:39:44.085 +02:00 [INF] Hosting environment: Development
+2025-06-21 17:39:44.089 +02:00 [INF] Content root path: C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Api
+2025-06-21 18:09:30.929 +02:00 [INF] Now listening on: https://localhost:7081
+2025-06-21 18:09:30.976 +02:00 [INF] Now listening on: http://localhost:5224
+2025-06-21 18:09:31.096 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-21 18:09:31.099 +02:00 [INF] Hosting environment: Development
+2025-06-21 18:09:31.103 +02:00 [INF] Content root path: C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Api
+2025-06-21 18:09:40.009 +02:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-06-21 18:35:57.635 +02:00 [INF] Now listening on: https://localhost:7081
+2025-06-21 18:35:57.699 +02:00 [INF] Now listening on: http://localhost:5224
+2025-06-21 18:35:57.853 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-21 18:35:57.859 +02:00 [INF] Hosting environment: Development
+2025-06-21 18:35:57.864 +02:00 [INF] Content root path: C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Api
+2025-06-21 22:49:41.764 +02:00 [INF] Now listening on: https://localhost:7081
+2025-06-21 22:49:41.779 +02:00 [INF] Now listening on: http://localhost:5224
+2025-06-21 22:49:41.811 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-21 22:49:41.812 +02:00 [INF] Hosting environment: Development
+2025-06-21 22:49:41.813 +02:00 [INF] Content root path: C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Api
+2025-06-21 22:58:55.329 +02:00 [INF] Now listening on: https://localhost:7081
+2025-06-21 22:58:55.344 +02:00 [INF] Now listening on: http://localhost:5224
+2025-06-21 22:58:55.376 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-21 22:58:55.378 +02:00 [INF] Hosting environment: Development
+2025-06-21 22:58:55.379 +02:00 [INF] Content root path: C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Api
+2025-06-21 23:18:23.924 +02:00 [INF] Now listening on: https://localhost:7081
+2025-06-21 23:18:23.946 +02:00 [INF] Now listening on: http://localhost:5224
+2025-06-21 23:18:23.984 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-21 23:18:23.985 +02:00 [INF] Hosting environment: Development
+2025-06-21 23:18:23.987 +02:00 [INF] Content root path: C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Api
+2025-06-21 23:45:07.647 +02:00 [INF] Now listening on: https://localhost:7081
+2025-06-21 23:45:07.664 +02:00 [INF] Now listening on: http://localhost:5224
+2025-06-21 23:45:07.698 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-21 23:45:07.699 +02:00 [INF] Hosting environment: Development
+2025-06-21 23:45:07.700 +02:00 [INF] Content root path: C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Api
+2025-06-21 23:45:20.449 +02:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-06-21 23:53:50.505 +02:00 [INF] Now listening on: https://localhost:7081
+2025-06-21 23:53:50.540 +02:00 [INF] Now listening on: http://localhost:5224
+2025-06-21 23:53:50.623 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-21 23:53:50.624 +02:00 [INF] Hosting environment: Development
+2025-06-21 23:53:50.626 +02:00 [INF] Content root path: C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Api
+2025-06-21 23:53:56.983 +02:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-06-21 23:56:10.614 +02:00 [INF] Now listening on: https://localhost:7081
+2025-06-21 23:56:10.639 +02:00 [INF] Now listening on: http://localhost:5224
+2025-06-21 23:56:10.712 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-21 23:56:10.714 +02:00 [INF] Hosting environment: Development
+2025-06-21 23:56:10.716 +02:00 [INF] Content root path: C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Api
+2025-06-21 23:56:17.892 +02:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.

@@ -1,0 +1,17 @@
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Infrastructure\obj\Debug\net8.0\GL.CompanyCatalog.Infrastructure.csproj.AssemblyReference.cache
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Infrastructure\obj\Debug\net8.0\GL.CompanyCatalog.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Infrastructure\obj\Debug\net8.0\GL.CompanyCatalog.Infrastructure.AssemblyInfoInputs.cache
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Infrastructure\obj\Debug\net8.0\GL.CompanyCatalog.Infrastructure.AssemblyInfo.cs
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Infrastructure\obj\Debug\net8.0\GL.CompanyCatalog.Infrastructure.csproj.CoreCompileInputs.cache
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Infrastructure\bin\Debug\net8.0\GL.CompanyCatalog.Infrastructure.deps.json
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Infrastructure\bin\Debug\net8.0\GL.CompanyCatalog.Infrastructure.dll
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Infrastructure\bin\Debug\net8.0\GL.CompanyCatalog.Infrastructure.pdb
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Infrastructure\bin\Debug\net8.0\GL.CompanyCatalog.Application.dll
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Infrastructure\bin\Debug\net8.0\GL.CompanyCatalog.Domain.dll
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Infrastructure\bin\Debug\net8.0\GL.CompanyCatalog.Application.pdb
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Infrastructure\bin\Debug\net8.0\GL.CompanyCatalog.Domain.pdb
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Infrastructure\obj\Debug\net8.0\GL.Compa.485E0F2F.Up2Date
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Infrastructure\obj\Debug\net8.0\GL.CompanyCatalog.Infrastructure.dll
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Infrastructure\obj\Debug\net8.0\refint\GL.CompanyCatalog.Infrastructure.dll
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Infrastructure\obj\Debug\net8.0\GL.CompanyCatalog.Infrastructure.pdb
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Infrastructure\obj\Debug\net8.0\ref\GL.CompanyCatalog.Infrastructure.dll

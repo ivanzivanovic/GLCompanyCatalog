@@ -1,0 +1,15 @@
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Application\obj\Debug\net8.0\GL.CompanyCatalog.Application.csproj.AssemblyReference.cache
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Application\obj\Debug\net8.0\GL.CompanyCatalog.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Application\obj\Debug\net8.0\GL.CompanyCatalog.Application.AssemblyInfoInputs.cache
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Application\obj\Debug\net8.0\GL.CompanyCatalog.Application.AssemblyInfo.cs
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Application\obj\Debug\net8.0\GL.CompanyCatalog.Application.csproj.CoreCompileInputs.cache
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Application\bin\Debug\net8.0\GL.CompanyCatalog.Application.deps.json
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Application\bin\Debug\net8.0\GL.CompanyCatalog.Application.dll
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Application\bin\Debug\net8.0\GL.CompanyCatalog.Application.pdb
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Application\bin\Debug\net8.0\GL.CompanyCatalog.Domain.dll
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Application\bin\Debug\net8.0\GL.CompanyCatalog.Domain.pdb
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Application\obj\Debug\net8.0\GL.Compa.CC2FD96D.Up2Date
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Application\obj\Debug\net8.0\GL.CompanyCatalog.Application.dll
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Application\obj\Debug\net8.0\refint\GL.CompanyCatalog.Application.dll
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Application\obj\Debug\net8.0\GL.CompanyCatalog.Application.pdb
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Application\obj\Debug\net8.0\ref\GL.CompanyCatalog.Application.dll

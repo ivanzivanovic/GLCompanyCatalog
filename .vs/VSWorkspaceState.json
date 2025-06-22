@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\GL.CompanyCatalog.Api\\Properties",
+    "\\GL.CompanyCatalog.WebApp\\bin",
+    "\\GL.CompanyCatalog.WebApp\\Components",
+    "\\GL.CompanyCatalog.WebApp\\Contracts",
+    "\\GL.CompanyCatalog.WebApp\\Pages",
+    "\\GL.CompanyCatalog.WebApp\\Profiles",
+    "\\GL.CompanyCatalog.WebApp\\ViewModels"
+  ],
+  "SelectedNode": "\\GL.CompanyCatalog.WebApp",
+  "PreviewInSolutionExplorer": false
+}

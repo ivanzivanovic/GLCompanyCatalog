@@ -1,0 +1,549 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\source\\repos\\GL.CompanyCatalog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC6B860-6C8D-632F-83EA-42B2C4A5C2F4}|GL.CompanyCatalog.Persistence\\GL.CompanyCatalog.Persistence.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.persistence\\gldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC6B860-6C8D-632F-83EA-42B2C4A5C2F4}|GL.CompanyCatalog.Persistence\\GL.CompanyCatalog.Persistence.csproj|solutionrelative:gl.companycatalog.persistence\\gldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|build{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|C:\\source\\repos\\GL.CompanyCatalog\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|build{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.webapp\\services\\base\\serviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|solutionrelative:gl.companycatalog.webapp\\services\\base\\serviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D34CBB71-0204-D465-5CB0-4E8E4E4F6E55}|GL.CompanyCatalog.Api\\GL.CompanyCatalog.Api.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.api\\startupextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D34CBB71-0204-D465-5CB0-4E8E4E4F6E55}|GL.CompanyCatalog.Api\\GL.CompanyCatalog.Api.csproj|solutionrelative:gl.companycatalog.api\\startupextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D34CBB71-0204-D465-5CB0-4E8E4E4F6E55}|GL.CompanyCatalog.Api\\GL.CompanyCatalog.Api.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.api\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D34CBB71-0204-D465-5CB0-4E8E4E4F6E55}|GL.CompanyCatalog.Api\\GL.CompanyCatalog.Api.csproj|solutionrelative:gl.companycatalog.api\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D34CBB71-0204-D465-5CB0-4E8E4E4F6E55}|GL.CompanyCatalog.Api\\GL.CompanyCatalog.Api.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D34CBB71-0204-D465-5CB0-4E8E4E4F6E55}|GL.CompanyCatalog.Api\\GL.CompanyCatalog.Api.csproj|solutionrelative:gl.companycatalog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D34CBB71-0204-D465-5CB0-4E8E4E4F6E55}|GL.CompanyCatalog.Api\\GL.CompanyCatalog.Api.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.api\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D34CBB71-0204-D465-5CB0-4E8E4E4F6E55}|GL.CompanyCatalog.Api\\GL.CompanyCatalog.Api.csproj|solutionrelative:gl.companycatalog.api\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|solutionrelative:gl.companycatalog.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.webapp\\auth\\cookieauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|solutionrelative:gl.companycatalog.webapp\\auth\\cookieauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.webapp\\pages\\register.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|solutionrelative:gl.companycatalog.webapp\\pages\\register.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D34CBB71-0204-D465-5CB0-4E8E4E4F6E55}|GL.CompanyCatalog.Api\\GL.CompanyCatalog.Api.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D34CBB71-0204-D465-5CB0-4E8E4E4F6E55}|GL.CompanyCatalog.Api\\GL.CompanyCatalog.Api.csproj|solutionrelative:gl.companycatalog.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D34CBB71-0204-D465-5CB0-4E8E4E4F6E55}|GL.CompanyCatalog.Api\\GL.CompanyCatalog.Api.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D34CBB71-0204-D465-5CB0-4E8E4E4F6E55}|GL.CompanyCatalog.Api\\GL.CompanyCatalog.Api.csproj|solutionrelative:gl.companycatalog.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D34CBB71-0204-D465-5CB0-4E8E4E4F6E55}|GL.CompanyCatalog.Api\\GL.CompanyCatalog.Api.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D34CBB71-0204-D465-5CB0-4E8E4E4F6E55}|GL.CompanyCatalog.Api\\GL.CompanyCatalog.Api.csproj|solutionrelative:gl.companycatalog.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D34CBB71-0204-D465-5CB0-4E8E4E4F6E55}|GL.CompanyCatalog.Api\\GL.CompanyCatalog.Api.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D34CBB71-0204-D465-5CB0-4E8E4E4F6E55}|GL.CompanyCatalog.Api\\GL.CompanyCatalog.Api.csproj|solutionrelative:gl.companycatalog.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.webapp\\pages\\login.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|solutionrelative:gl.companycatalog.webapp\\pages\\login.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.webapp\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|solutionrelative:gl.companycatalog.webapp\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D34CBB71-0204-D465-5CB0-4E8E4E4F6E55}|GL.CompanyCatalog.Api\\GL.CompanyCatalog.Api.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.api\\services\\loggedinuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D34CBB71-0204-D465-5CB0-4E8E4E4F6E55}|GL.CompanyCatalog.Api\\GL.CompanyCatalog.Api.csproj|solutionrelative:gl.companycatalog.api\\services\\loggedinuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.webapp\\auth\\cookiehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|solutionrelative:gl.companycatalog.webapp\\auth\\cookiehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.webapp\\pages\\addcategory.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|solutionrelative:gl.companycatalog.webapp\\pages\\addcategory.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.webapp\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|solutionrelative:gl.companycatalog.webapp\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.webapp\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|solutionrelative:gl.companycatalog.webapp\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.webapp\\pages\\index.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|solutionrelative:gl.companycatalog.webapp\\pages\\index.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.webapp\\gl.companycatalog.webapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|solutionrelative:gl.companycatalog.webapp\\gl.companycatalog.webapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9353954B-E8D9-2461-0DE3-77562B1AB01D}|GL.CompanyCatalog.Application\\GL.CompanyCatalog.Application.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.application\\features\\companies\\commands\\createcompany\\createcompanycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9353954B-E8D9-2461-0DE3-77562B1AB01D}|GL.CompanyCatalog.Application\\GL.CompanyCatalog.Application.csproj|solutionrelative:gl.companycatalog.application\\features\\companies\\commands\\createcompany\\createcompanycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475476E7-0236-7316-019B-BFDA3E255B2E}|GL.CompanyCatalog.Infrastructure\\GL.CompanyCatalog.Infrastructure.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.infrastructure\\mail\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475476E7-0236-7316-019B-BFDA3E255B2E}|GL.CompanyCatalog.Infrastructure\\GL.CompanyCatalog.Infrastructure.csproj|solutionrelative:gl.companycatalog.infrastructure\\mail\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475476E7-0236-7316-019B-BFDA3E255B2E}|GL.CompanyCatalog.Infrastructure\\GL.CompanyCatalog.Infrastructure.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.infrastructure\\fileexport\\csvexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475476E7-0236-7316-019B-BFDA3E255B2E}|GL.CompanyCatalog.Infrastructure\\GL.CompanyCatalog.Infrastructure.csproj|solutionrelative:gl.companycatalog.infrastructure\\fileexport\\csvexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.webapp\\contracts\\icategorydataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|solutionrelative:gl.companycatalog.webapp\\contracts\\icategorydataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.webapp\\pages\\categoryoverview.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|solutionrelative:gl.companycatalog.webapp\\pages\\categoryoverview.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.webapp\\components\\pager.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A7709B9-F389-E6E0-C9C5-C629D1774731}|GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj|solutionrelative:gl.companycatalog.webapp\\components\\pager.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC6B860-6C8D-632F-83EA-42B2C4A5C2F4}|GL.CompanyCatalog.Persistence\\GL.CompanyCatalog.Persistence.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.persistence\\configurations\\companyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC6B860-6C8D-632F-83EA-42B2C4A5C2F4}|GL.CompanyCatalog.Persistence\\GL.CompanyCatalog.Persistence.csproj|solutionrelative:gl.companycatalog.persistence\\configurations\\companyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9353954B-E8D9-2461-0DE3-77562B1AB01D}|GL.CompanyCatalog.Application\\GL.CompanyCatalog.Application.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.application\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9353954B-E8D9-2461-0DE3-77562B1AB01D}|GL.CompanyCatalog.Application\\GL.CompanyCatalog.Application.csproj|solutionrelative:gl.companycatalog.application\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9353954B-E8D9-2461-0DE3-77562B1AB01D}|GL.CompanyCatalog.Application\\GL.CompanyCatalog.Application.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.application\\features\\companies\\queries\\getcompanydetail\\getcompanydetailqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9353954B-E8D9-2461-0DE3-77562B1AB01D}|GL.CompanyCatalog.Application\\GL.CompanyCatalog.Application.csproj|solutionrelative:gl.companycatalog.application\\features\\companies\\queries\\getcompanydetail\\getcompanydetailqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9353954B-E8D9-2461-0DE3-77562B1AB01D}|GL.CompanyCatalog.Application\\GL.CompanyCatalog.Application.csproj|c:\\source\\repos\\gl.companycatalog\\gl.companycatalog.application\\features\\companies\\queries\\getcompanydetail\\companydetailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9353954B-E8D9-2461-0DE3-77562B1AB01D}|GL.CompanyCatalog.Application\\GL.CompanyCatalog.Application.csproj|solutionrelative:gl.companycatalog.application\\features\\companies\\queries\\getcompanydetail\\companydetailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GLDbContext.cs",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Persistence\\GLDbContext.cs",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.Persistence\\GLDbContext.cs",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Persistence\\GLDbContext.cs",
+              "RelativeToolTip": "GL.CompanyCatalog.Persistence\\GLDbContext.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowEUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T23:08:59.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceClient.cs",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\Services\\Base\\ServiceClient.cs",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.WebApp\\Services\\Base\\ServiceClient.cs",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\Services\\Base\\ServiceClient.cs",
+              "RelativeToolTip": "GL.CompanyCatalog.WebApp\\Services\\Base\\ServiceClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T22:23:43.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CompaniesController.cs",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Api\\Controllers\\CompaniesController.cs",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.Api\\Controllers\\CompaniesController.cs",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Api\\Controllers\\CompaniesController.cs",
+              "RelativeToolTip": "GL.CompanyCatalog.Api\\Controllers\\CompaniesController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowDEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T21:39:53.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StartupExtensions.cs",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Api\\StartupExtensions.cs",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.Api\\StartupExtensions.cs",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Api\\StartupExtensions.cs",
+              "RelativeToolTip": "GL.CompanyCatalog.Api\\StartupExtensions.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAawDkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T01:07:30.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Api\\Program.cs",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.Api\\Program.cs",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Api\\Program.cs",
+              "RelativeToolTip": "GL.CompanyCatalog.Api\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T01:07:29.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAC8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-06-22T01:24:26.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.WebApp\\Program.cs",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\Program.cs",
+              "RelativeToolTip": "GL.CompanyCatalog.WebApp\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAADwvy0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T10:14:59.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ManageController.cs",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Api\\Controllers\\ManageController.cs",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.Api\\Controllers\\ManageController.cs",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Api\\Controllers\\ManageController.cs",
+              "RelativeToolTip": "GL.CompanyCatalog.Api\\Controllers\\ManageController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T16:32:44.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CookieAuthenticationStateProvider.cs",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\Auth\\CookieAuthenticationStateProvider.cs",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.WebApp\\Auth\\CookieAuthenticationStateProvider.cs",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\Auth\\CookieAuthenticationStateProvider.cs",
+              "RelativeToolTip": "GL.CompanyCatalog.WebApp\\Auth\\CookieAuthenticationStateProvider.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADgvzsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T21:59:01.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Api\\Dockerfile",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.Api\\Dockerfile",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Api\\Dockerfile",
+              "RelativeToolTip": "GL.CompanyCatalog.Api\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-22T01:09:48.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Register.razor.cs",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\Pages\\Register.razor.cs",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.WebApp\\Pages\\Register.razor.cs",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\Pages\\Register.razor.cs",
+              "RelativeToolTip": "GL.CompanyCatalog.WebApp\\Pages\\Register.razor.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwB4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T09:40:42.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.Api\\appsettings.json",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Api\\appsettings.json",
+              "RelativeToolTip": "GL.CompanyCatalog.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-22T00:42:03.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "GL.CompanyCatalog.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABEAAAAAAAAAAAAewCEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-22T10:23:22.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.Api\\appsettings.Development.json",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Api\\appsettings.Development.json",
+              "RelativeToolTip": "GL.CompanyCatalog.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-22T12:32:37.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.razor.cs",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\Pages\\Login.razor.cs",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.WebApp\\Pages\\Login.razor.cs",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\Pages\\Login.razor.cs",
+              "RelativeToolTip": "GL.CompanyCatalog.WebApp\\Pages\\Login.razor.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T09:45:33.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Register.razor",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\Pages\\Register.razor",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.WebApp\\Pages\\Register.razor",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\Pages\\Register.razor",
+              "RelativeToolTip": "GL.CompanyCatalog.WebApp\\Pages\\Register.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-22T09:45:03.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoggedInUserService.cs",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Api\\Services\\LoggedInUserService.cs",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.Api\\Services\\LoggedInUserService.cs",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Api\\Services\\LoggedInUserService.cs",
+              "RelativeToolTip": "GL.CompanyCatalog.Api\\Services\\LoggedInUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T16:33:14.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CookieHandler.cs",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\Auth\\CookieHandler.cs",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.WebApp\\Auth\\CookieHandler.cs",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\Auth\\CookieHandler.cs",
+              "RelativeToolTip": "GL.CompanyCatalog.WebApp\\Auth\\CookieHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T12:20:41.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddCategory.razor.cs",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\Pages\\AddCategory.razor.cs",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.WebApp\\Pages\\AddCategory.razor.cs",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\Pages\\AddCategory.razor.cs",
+              "RelativeToolTip": "GL.CompanyCatalog.WebApp\\Pages\\AddCategory.razor.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAIA1wCkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T09:47:23.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.WebApp\\Pages\\Login.razor",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\Pages\\Login.razor",
+              "RelativeToolTip": "GL.CompanyCatalog.WebApp\\Pages\\Login.razor",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-22T09:44:49.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.razor.cs",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\Pages\\Index.razor.cs",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.WebApp\\Pages\\Index.razor.cs",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\Pages\\Index.razor.cs",
+              "RelativeToolTip": "GL.CompanyCatalog.WebApp\\Pages\\Index.razor.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T09:40:36.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.WebApp\\Pages\\Index.razor",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\Pages\\Index.razor",
+              "RelativeToolTip": "GL.CompanyCatalog.WebApp\\Pages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-22T09:40:02.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GL.CompanyCatalog.WebApp.csproj",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj",
+              "RelativeToolTip": "GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-22T01:12:22.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CreateCompanyCommandHandler.cs",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Application\\Features\\Companies\\Commands\\CreateCompany\\CreateCompanyCommandHandler.cs",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.Application\\Features\\Companies\\Commands\\CreateCompany\\CreateCompanyCommandHandler.cs",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Application\\Features\\Companies\\Commands\\CreateCompany\\CreateCompanyCommandHandler.cs",
+              "RelativeToolTip": "GL.CompanyCatalog.Application\\Features\\Companies\\Commands\\CreateCompany\\CreateCompanyCommandHandler.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAswCgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T00:59:54.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Infrastructure\\Mail\\EmailService.cs",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.Infrastructure\\Mail\\EmailService.cs",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Infrastructure\\Mail\\EmailService.cs",
+              "RelativeToolTip": "GL.CompanyCatalog.Infrastructure\\Mail\\EmailService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T00:59:36.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CategoryOverview.razor.cs",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\Pages\\CategoryOverview.razor.cs",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.WebApp\\Pages\\CategoryOverview.razor.cs",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\Pages\\CategoryOverview.razor.cs",
+              "RelativeToolTip": "GL.CompanyCatalog.WebApp\\Pages\\CategoryOverview.razor.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIA0wBQAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T00:41:06.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ICategoryDataService.cs",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\Contracts\\ICategoryDataService.cs",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.WebApp\\Contracts\\ICategoryDataService.cs",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\Contracts\\ICategoryDataService.cs",
+              "RelativeToolTip": "GL.CompanyCatalog.WebApp\\Contracts\\ICategoryDataService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIA0wAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T00:40:47.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Pager.razor.cs",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\Components\\Pager.razor.cs",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.WebApp\\Components\\Pager.razor.cs",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.WebApp\\Components\\Pager.razor.cs",
+              "RelativeToolTip": "GL.CompanyCatalog.WebApp\\Components\\Pager.razor.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAIA0wBMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T00:40:40.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CsvExporter.cs",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Infrastructure\\FileExport\\CsvExporter.cs",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.Infrastructure\\FileExport\\CsvExporter.cs",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Infrastructure\\FileExport\\CsvExporter.cs",
+              "RelativeToolTip": "GL.CompanyCatalog.Infrastructure\\FileExport\\CsvExporter.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T00:39:16.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CompanyConfiguration.cs",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Persistence\\Configurations\\CompanyConfiguration.cs",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.Persistence\\Configurations\\CompanyConfiguration.cs",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Persistence\\Configurations\\CompanyConfiguration.cs",
+              "RelativeToolTip": "GL.CompanyCatalog.Persistence\\Configurations\\CompanyConfiguration.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA6wBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T00:39:37.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Application\\Profiles\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.Application\\Profiles\\MappingProfile.cs",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Application\\Profiles\\MappingProfile.cs",
+              "RelativeToolTip": "GL.CompanyCatalog.Application\\Profiles\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T00:39:05.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "GetCompanyDetailQueryHandler.cs",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Application\\Features\\Companies\\Queries\\GetCompanyDetail\\GetCompanyDetailQueryHandler.cs",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.Application\\Features\\Companies\\Queries\\GetCompanyDetail\\GetCompanyDetailQueryHandler.cs",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Application\\Features\\Companies\\Queries\\GetCompanyDetail\\GetCompanyDetailQueryHandler.cs",
+              "RelativeToolTip": "GL.CompanyCatalog.Application\\Features\\Companies\\Queries\\GetCompanyDetail\\GetCompanyDetailQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T00:38:45.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CompanyDetailVm.cs",
+              "DocumentMoniker": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Application\\Features\\Companies\\Queries\\GetCompanyDetail\\CompanyDetailVm.cs",
+              "RelativeDocumentMoniker": "GL.CompanyCatalog.Application\\Features\\Companies\\Queries\\GetCompanyDetail\\CompanyDetailVm.cs",
+              "ToolTip": "C:\\source\\repos\\GL.CompanyCatalog\\GL.CompanyCatalog.Application\\Features\\Companies\\Queries\\GetCompanyDetail\\CompanyDetailVm.cs",
+              "RelativeToolTip": "GL.CompanyCatalog.Application\\Features\\Companies\\Queries\\GetCompanyDetail\\CompanyDetailVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T00:38:37.443Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

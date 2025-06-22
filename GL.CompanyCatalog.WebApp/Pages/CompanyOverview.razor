@@ -1,0 +1,45 @@
+﻿@page "/companyoverview"
+
+<h3>Company Overview</h3>
+
+<div class="m-2 d-flex justify-content-end">
+    <button @onclick="AddNewCompany" class="me-1">Add company</button>
+</div>
+
+@if (Companies == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Company name</th>
+                <th>ISIN</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var company in Companies)
+            {
+                <tr>
+                    <td class="event-image">
+                        @if (!string.IsNullOrWhiteSpace(company.ImageUrl))
+                        {
+                            <img src="@company.ImageUrl"  />
+                        }
+                    </td>
+                    <td class="event-name">@company.Name</td>
+                    <td class="event-isin">@company.Isin</td>
+                    <td>
+                        <a href="@($"/companydetails/{company.CompanyId}")" class="btn btn-primary">
+                            <i class="fa-solid fa-pen-to-square"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

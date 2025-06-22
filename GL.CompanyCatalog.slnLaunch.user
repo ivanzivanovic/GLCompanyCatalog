@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "GL.CompanyCatalog.Api\\GL.CompanyCatalog.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "GL.CompanyCatalog.WebApp\\GL.CompanyCatalog.WebApp.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

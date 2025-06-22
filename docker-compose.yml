@@ -1,0 +1,58 @@
+version: '3.8'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    environment:
+      SA_PASSWORD: "YourStrong!Passw0rd"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "14330:1433"                  # Map host port 14330 to container SQL Server port 1433
+    volumes:
+      - sqlserver-data:/var/opt/mssql # Persist SQL Server data on a named Docker volume
+    networks:
+      - gl-network                   # Attach to custom bridge network for service communication
+
+  api:
+    build:
+      context: .      
+      dockerfile: GL.CompanyCatalog.Api/Dockerfile
+    container_name: gl-companycatalog-api
+    depends_on:
+      - sqlserver                   # Ensure SQL Server starts before API container
+    environment:
+      ConnectionStrings__GLCompanyCatalogConnectionString: "Server=192.168.1.88,14330;Database=GLCompanyCatalogDb;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;"
+                                    # Database connection string pointing to 'sqlserver' container hostname
+      ConnectionStrings__GLCompanyCatalogIdentityConnectionString: "Server=192.168.1.88,14330;Database=GLCompanyCatalogIdentityDb;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;"
+                                    # Identity database connection string, same SQL Server hostname
+      ApiUrl: "http://gl-companycatalog-api:8080"           # <-- Changed from localhost to Docker service name for internal container communication
+      BlazorUrl: "http://gl-companycatalog-webapp"     # <-- Changed from localhost to service name for consistency within Docker network
+      ASPNETCORE_ENVIRONMENT: "Development" # Set environment to Development inside container
+      ASPNETCORE_URLS: "http://+:8080"
+    ports:
+      - "7081:8080"                    # Map host port 7081 to container port 80 (API HTTP)
+    networks:
+      - gl-network                   # Connect to the shared network for inter-service communication
+
+  webapp:
+    build:
+      context: .
+      dockerfile: GL.CompanyCatalog.WebApp/Dockerfile
+    container_name: gl-companycatalog-webapp
+    depends_on:
+      - api                         # Ensure API container starts before WebApp
+    environment:
+      ApiUrl: "http://gl-companycatalog-api:8080"           # Provide API base URL as environment variable for WebApp container
+      BlazorUrl: "http://gl-companycatalog-webapp"     # Provide WebApp base URL for consistency and internal calls
+    ports:
+      - "7080:80"                    # Map host port 7080 to container port 8080 (WebApp HTTP)
+    networks:
+      - gl-network                   # Join the same Docker network for service discovery
+
+volumes:
+  sqlserver-data:                   # Named volume to persist SQL Server data across container restarts
+
+networks:
+  gl-network:
+    driver: bridge                 # Use a user-defined bridge network for DNS-based service discovery and isolation

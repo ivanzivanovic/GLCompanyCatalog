@@ -1,0 +1,85 @@
+﻿@page "/companydetails"
+@page "/companydetails/{companyid}"
+
+<h1 class="page-title">Details for @CompanyDetailViewModel.Name</h1>
+
+@Message
+
+<EditForm Model="@CompanyDetailViewModel" OnValidSubmit="@HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="row mb-3">
+        <label for="name" class="col-sm-3 form-label">Company name:</label>
+        <div class="col-sm-8">
+            <InputText id="name" class="form-control" @bind-Value="@CompanyDetailViewModel.Name" placeholder="Company name"></InputText>
+            <ValidationMessage For="@(() => CompanyDetailViewModel.Name)" />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label for="exchange" class="col-sm-3 form-label">Exchange:</label>
+        <div class="col-sm-8">
+            <InputText id="exchange" class="form-control" @bind-Value="@CompanyDetailViewModel.Exchange" placeholder="Exchange"></InputText>
+            <ValidationMessage For="@(() => CompanyDetailViewModel.Exchange)" />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label for="ticker" class="col-sm-3 form-label">Ticker:</label>
+        <div class="col-sm-8">
+            <InputText id="ticker" class="form-control" @bind-Value="@CompanyDetailViewModel.Ticker" placeholder="Ticker"></InputText>
+            <ValidationMessage For="@(() => CompanyDetailViewModel.Ticker)" />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label for="isin" class="col-sm-3 form-label">ISIN:</label>
+        <div class="col-sm-8">
+            <InputText id="isin" class="form-control" @bind-Value="@CompanyDetailViewModel.Isin" placeholder="ISIN"></InputText>
+            <ValidationMessage For="@(() => CompanyDetailViewModel.Isin)" />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label for="website" class="col-sm-3 form-label">Website:</label>
+        <div class="col-sm-8">
+            <InputText id="website" class="form-control" @bind-Value="@CompanyDetailViewModel.Website" placeholder="Website"></InputText>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label for="imageurl" class="col-sm-3 form-label">Image URL:</label>
+        <div class="col-sm-8">
+            <InputText id="imageurl" class="form-control" @bind-Value="@CompanyDetailViewModel.ImageUrl" placeholder="Image URL"></InputText>
+            <ValidationMessage For="@(() => CompanyDetailViewModel.ImageUrl)" />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label for="category" class="col-sm-3 form-label">Category:</label>
+        <div class="col-sm-8">
+            <InputSelect id="category" class="form-control" @bind-Value="@SelectedCategoryId">
+                @foreach (var category in Categories)
+                {
+                    <option value="@category.CategoryId">@category.Name</option>
+                }
+            </InputSelect>
+        </div>
+    </div>
+
+    <button type="submit" class="submit-button">Save company</button>
+</EditForm>
+
+@if (SelectedCompanyId != Guid.Empty)
+{
+    <p>
+        <button @onclick="DeleteCompany" class="delete-button mt-3">Delete company</button>
+    </p>
+}
+
+<br />
+<p class="back-to-catalog mt-3">
+    <img src="img/back-arrow.svg" />
+    <a @onclick="@NavigateToOverview">Back to overview</a>
+</p>

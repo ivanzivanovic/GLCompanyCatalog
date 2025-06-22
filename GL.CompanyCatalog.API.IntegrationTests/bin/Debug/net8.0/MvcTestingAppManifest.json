@@ -1,0 +1,8 @@
+{
+  "GL.CompanyCatalog.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\GL\\GL.CompanyCatalog\\GL.CompanyCatalog.Api",
+  "GL.CompanyCatalog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\GL\\GL.CompanyCatalog\\GL.CompanyCatalog.Application",
+  "GL.CompanyCatalog.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\GL\\GL.CompanyCatalog\\GL.CompanyCatalog.Domain",
+  "GL.CompanyCatalog.Identity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\GL\\GL.CompanyCatalog\\GL.CompanyCatalog.Identity",
+  "GL.CompanyCatalog.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\GL\\GL.CompanyCatalog\\GL.CompanyCatalog.Infrastructure",
+  "GL.CompanyCatalog.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\GL\\GL.CompanyCatalog\\GL.CompanyCatalog.Persistence"
+}

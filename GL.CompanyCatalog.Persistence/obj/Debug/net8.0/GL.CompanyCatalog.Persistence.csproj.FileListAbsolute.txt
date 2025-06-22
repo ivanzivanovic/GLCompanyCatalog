@@ -1,0 +1,17 @@
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Persistence\obj\Debug\net8.0\GL.CompanyCatalog.Persistence.csproj.AssemblyReference.cache
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Persistence\obj\Debug\net8.0\GL.CompanyCatalog.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Persistence\obj\Debug\net8.0\GL.CompanyCatalog.Persistence.AssemblyInfoInputs.cache
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Persistence\obj\Debug\net8.0\GL.CompanyCatalog.Persistence.AssemblyInfo.cs
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Persistence\obj\Debug\net8.0\GL.CompanyCatalog.Persistence.csproj.CoreCompileInputs.cache
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Persistence\bin\Debug\net8.0\GL.CompanyCatalog.Persistence.deps.json
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Persistence\bin\Debug\net8.0\GL.CompanyCatalog.Persistence.dll
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Persistence\bin\Debug\net8.0\GL.CompanyCatalog.Persistence.pdb
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Persistence\bin\Debug\net8.0\GL.CompanyCatalog.Application.dll
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Persistence\bin\Debug\net8.0\GL.CompanyCatalog.Domain.dll
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Persistence\bin\Debug\net8.0\GL.CompanyCatalog.Application.pdb
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Persistence\bin\Debug\net8.0\GL.CompanyCatalog.Domain.pdb
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Persistence\obj\Debug\net8.0\GL.Compa.C13F959C.Up2Date
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Persistence\obj\Debug\net8.0\GL.CompanyCatalog.Persistence.dll
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Persistence\obj\Debug\net8.0\refint\GL.CompanyCatalog.Persistence.dll
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Persistence\obj\Debug\net8.0\GL.CompanyCatalog.Persistence.pdb
+C:\GL\GL.CompanyCatalog\GL.CompanyCatalog.Persistence\obj\Debug\net8.0\ref\GL.CompanyCatalog.Persistence.dll

@@ -1,0 +1,59 @@
+﻿@page "/categoryoverview"
+@attribute [Authorize]
+
+<h3>Company Category Overview</h3>
+
+<br />
+
+<div class="m-2 d-flex justify-content-end">
+    <button @onclick="NavigateToAddNewCategory" class="me-1">Add new category</button>
+</div>
+@if (Categories == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Category name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var cat in Categories)
+            {
+                <tr>
+                    <td>@cat.Name</td>
+                </tr>
+                <tr>
+                    <td>
+                        <table class="nested-table ms-auto me-auto">
+                            <thead>
+                                <tr>
+                                    <th>Company name</th>
+                                    <th>Exchange</th>
+                                    <th>Ticker</th>
+                                    <th>ISIN</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var company in cat.Companies)
+                                {
+                                    <tr>
+                                        <td>@company.Name</td>
+                                        <td>@company.Exchange</td>
+                                        <td>@company.Ticker</td>
+                                        <td>@company.Isin</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+}
+

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "0vSryAz+0brAWgBxQgHTZdVW4hE/NeZuhqnGhbYSCWA=",
+  "Source": "GL.CompanyCatalog.Api",
+  "BasePath": "_content/GL.CompanyCatalog.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
