@@ -32,7 +32,7 @@ namespace GL.CompanyCatalog.WebApp.Pages
 
             if (registrationResponse.Success) 
             {
-                NavigationManager.NavigateTo("home");
+                NavigationManager.NavigateTo("login");
             }
             else
             {
