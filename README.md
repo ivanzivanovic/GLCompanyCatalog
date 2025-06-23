@@ -98,15 +98,34 @@ Automated unit and integration tests are implemented as xUnit projects. Tests ru
 
 5. Access the Web UI (Blazor app) at:
    http://localhost:7080
+
+6. Register a new user:
+   - Open the Web UI in your browser (http://localhost:7080).
+   - Click on the "Register" link or button.
+   - Fill in the registration form with your details (email and password).
+   - Submit the form to create a new account.
+
+7. Login with an registrated user:
+   - On the Web UI login page (http://localhost:7080), enter your registered credentials.
+   - Click "Login" to authenticate.
+   - Upon successful login, you will be redirected to the main application dashboard.
+     
+8. Explore the system functionalities through the simple and intuitive user interface:
+   - View the list of categories  
+   - Add new categories  
+   - Browse companies  
+   - View detailed information about a company  
+   - Delete a company  
+   - Edit company data
    
-7. Access Swagger UI for API documentation and testing at:
+9. Access Swagger UI for API documentation and testing at:
    http://localhost:7081/swagger
 
-8. To stop and remove containers when finished:
+10. To stop and remove containers when finished:
    ```bash
    docker-compose down
    
-9. To view logs of running containers:
+11. To view logs of running containers:
    ```bash    
    docker-compose logs
 
